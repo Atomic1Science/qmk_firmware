@@ -8,7 +8,7 @@
 #define PRODUCT_ID      0x6060
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    qmkbuilder
-#define PRODUCT         keyboard
+#define PRODUCT         Keyboard
 #define DESCRIPTION     Keyboard
 
 /* key matrix size */
@@ -16,8 +16,8 @@
 #define MATRIX_COLS 12
 
 /* key matrix pins */
-#define MATRIX_ROW_PINS { B0, B1, B2, B3 }
-#define MATRIX_COL_PINS { B4, B5, B6, B7, C0, C1, C2, C3, C4, C5, C6, C7 }
+#define MATRIX_ROW_PINS { F2, F3, F4, F5 }
+#define MATRIX_COL_PINS { D2, D3, D1, D0, D4, C6, D7, E6, B4, B5, B6, B7 }
 #define UNUSED_PINS
 
 /* COL2ROW or ROW2COL */
