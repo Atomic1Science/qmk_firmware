@@ -5,19 +5,19 @@
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0x6060
+#define PRODUCT_ID      0x3087
 #define DEVICE_VER      0x0001
-#define MANUFACTURER    qmkbuilder
-#define PRODUCT         Keyboard
-#define DESCRIPTION     Keyboard
+#define MANUFACTURER    Atomic
+#define PRODUCT         Cake
+#define DESCRIPTION     Cake
 
 /* key matrix size */
 #define MATRIX_ROWS 4
 #define MATRIX_COLS 12
 
 /* key matrix pins */
-#define MATRIX_ROW_PINS { F2, F3, F4, F5 }
-#define MATRIX_COL_PINS { D2, D3, D1, D0, D4, C6, D7, E6, B4, B5, B6, B7 }
+#define MATRIX_ROW_PINS { D6, C7, F4, F5 }
+#define MATRIX_COL_PINS { F6, D3, F7, D0, D4, C6, D7, E6, B4, B5, B6, B7 }
 #define UNUSED_PINS
 
 /* COL2ROW or ROW2COL */
