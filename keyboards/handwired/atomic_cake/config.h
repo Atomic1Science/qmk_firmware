@@ -24,8 +24,9 @@
 #define DIODE_DIRECTION COL2ROW
 
 /* tapping related settings */
-#define RETRO_TAPPING
-#define TAPPING_TERM 175
+#define AUTO_SHIFT_TIMEOUT 175
+#define TAPPING_TERM 200
+#define IGNORE_MOD_TAP_INTERRUPT
 
 /* number of backlight levels */
 
