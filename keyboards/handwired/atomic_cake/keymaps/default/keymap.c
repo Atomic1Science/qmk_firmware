@@ -3,9 +3,9 @@
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 	KEYMAP( // Layer 0 : Alphas, mods and ansi symbols
-		KC_Q,		KC_W,	KC_E,	KC_R,	KC_T,	KC_Y,	KC_U,	KC_I,	KC_O,	KC_P, 	
-		KC_A,		KC_S,	KC_D,	KC_F,	KC_G,	KC_H,	KC_J,	KC_K,	KC_L,	KC_SFTENT,	
-		LSFT_T(KC_Z),KC_X,	KC_C,	KC_V,	KC_B,	KC_N,	KC_M,	KC_MINS,KC_EQL,	KC_GESC,	
+		KC_Q,		KC_D,	KC_R,	KC_W,	KC_B,	KC_J,	KC_F,	KC_U,	KC_O,	KC_P, 	
+		KC_A,		KC_S,	KC_H,	KC_T,	KC_G,	KC_Y,	KC_N,	KC_E,	KC_I,	KC_SFTENT,	
+		LSFT_T(KC_Z),KC_X,	KC_M,	KC_C,	KC_V,	KC_K,	KC_L,	KC_MINS,KC_EQL,	KC_GESC,	
 		KC_LCTL,	KC_LALT,KC_SLSH,KC_SPC,	MO(3),	KC_LGUI,MO(2),	KC_QUOT,KC_BSLS,KC_TAB),
 
 	KEYMAP( // Layer 1 : Gaming layer
