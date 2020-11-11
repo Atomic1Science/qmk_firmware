@@ -27,6 +27,8 @@
 #define AUTO_SHIFT_TIMEOUT 175
 #define TAPPING_TERM 200
 #define IGNORE_MOD_TAP_INTERRUPT
+#define RETRO_TAPPING
+#define PERMISSIVE_HOLD
 
 /* number of backlight levels */
 

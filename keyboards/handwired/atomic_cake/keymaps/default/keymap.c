@@ -4,15 +4,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 	KEYMAP( // Layer 0 : Alphas, mods and ansi symbols
 		KC_Q,		KC_D,	KC_R,	KC_W,	KC_B,	KC_J,	KC_F,	KC_U,	KC_O,	KC_P, 	
-		LSFT_T(KC_A),KC_S,	KC_H,	KC_T,	KC_G,	KC_Y,	KC_N,	KC_E,	KC_I,	KC_SFTENT,	
-		KC_Z,		KC_X,	KC_M,	KC_C,	KC_V,	KC_K,	KC_L,	KC_MINS,KC_EQL,	KC_GESC,	
+		KC_A,		KC_S,	KC_H,	KC_T,	KC_G,	KC_Y,	KC_N,	KC_E,	KC_I,	KC_SFTENT,	
+		LSFT_T(KC_Z),KC_X,	KC_M,	KC_C,	KC_V,	KC_K,	KC_L,	KC_MINS,KC_EQL,	KC_GESC,	
 		KC_LCTL,	KC_LALT,KC_QUOT,KC_SPC,	MO(3),	KC_LGUI,MO(2),	KC_SLSH,KC_BSLS,KC_TAB),
 
 	KEYMAP( // Layer 1 : Gaming layer
-		KC_ESC,		KC_Q,	KC_W,	KC_E,	KC_R,	KC_T,	KC_Y,	KC_P7,	KC_P8,	KC_P9, 	
-		KC_TAB,		KC_A,	KC_S,	KC_D,	KC_F,	KC_G,	KC_H,	KC_P4,	KC_P5,	KC_P6,	
-		KC_LSFT,	KC_Z,	KC_X,	KC_C,	KC_V,	KC_B,	KC_N,	KC_P1,	KC_P2,	KC_P3,	
-		KC_LCTL,	KC_LSPO,KC_LALT,KC_SPC,	MO(3),	KC_LGUI,MO(2),	KC_P0,	KC_TRNS,DF(0)),
+		KC_ESC,		KC_Q,	KC_W,	KC_E,	KC_R,	KC_T,	KC_TRNS,KC_UP,	KC_P8,	KC_P9, 	
+		KC_TAB,		KC_A,	KC_S,	KC_D,	KC_F,	KC_G,	KC_LEFT,KC_DOWN,KC_RGHT,KC_ENT,	
+		KC_LSFT,	KC_Z,	KC_X,	KC_C,	KC_V,	KC_B,	KC_TRNS,KC_P1,	KC_P2,	KC_P3,	
+		KC_LCTL,	KC_LALT,KC_ENT,	KC_SPC,	MO(2),	KC_LGUI,MO(3),	KC_P0,	KC_TRNS,DF(0)),
 
 	KEYMAP( // Layer 2 : Numbers, symbols and numpad 
 		KC_TRNS,	KC_6,	KC_5,	KC_4,	KC_PGUP,KC_P7,	KC_P8,	KC_P9,	KC_LPRN,KC_LBRC,
